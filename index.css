@@ -263,6 +263,9 @@ font-size: 18px;
 .container{
   width: 100%;
 }
+.content{
+  margin-top: -60px;
+}
 
 .nav-links{
   font-size: 11px;
