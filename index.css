@@ -11,7 +11,7 @@ html{
 * {
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +21,8 @@ body {
   background-size: cover;
   font-family: 'Lato', sans-serif;
   overflow-y: hidden;
-  background-color: #A6613A
+  background-color: #A6613A;
+ 
 }
 
 
@@ -149,6 +150,8 @@ font-size: 18px;
   
   background-repeat: no-repeat;
   background-color: #A6613A;
+  box-sizing: content-box;
+  
   }
   nav {
     /* flex-direction: column; */
@@ -173,7 +176,8 @@ font-size: 18px;
    background-size: 150vh;
   
   background-repeat: no-repeat;
-  background-color: #A6613A
+  background-color: #A6613A;
+  box-sizing: content-box;
   }
 
 
