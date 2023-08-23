@@ -253,14 +253,19 @@ font-size: 18px;
 
   body{
     background: url("iphone-11.png");
-   background-size: 100vh;
-  
+   background-size: 150vh;
+  background-position:inherit;
   background-repeat: no-repeat;
   background-color: #A6613A;
   box-sizing: content-box;
+  overflow-x: hidden;
   }
 .container{
   width: 100%;
+}
+
+.nav-links{
+  font-size: 11px;
 }
 .cart{
   margin-left: -20px;
