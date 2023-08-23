@@ -144,7 +144,7 @@ font-size: 18px;
 /* Media query for responsive design */
 @media (max-width: 900px) {
   body{
-    background: url("/iPad-mini-8.3-2.png");
+    background: url("iPad-mini-8.3-2.png");
    background-size: 150vh;
   
   background-repeat: no-repeat;
@@ -168,7 +168,7 @@ font-size: 18px;
 }
 @media (max-width: 560px) {
   body{
-    background: url("/iPhone-13-mini-812.png");
+    background: url("iPhone-13-mini-812.png");
    background-size: 150vh;
   
   background-repeat: no-repeat;
