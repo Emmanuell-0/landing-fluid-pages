@@ -247,3 +247,54 @@ font-size: 18px;
   }
   
 }
+
+
+@media (max-width: 326px) {
+
+  body{
+    background: url("iphone-11.png");
+   background-size: 100vh;
+  
+  background-repeat: no-repeat;
+  background-color: #A6613A;
+  box-sizing: content-box;
+  }
+
+
+
+   .btn-container{
+    /* height: 56px; */
+    /* position: absolute; */
+    /* left: 480.2px;
+    top: 168px; */
+    /* transform: rotate(1.375deg); */
+  padding-top: 35px;
+  margin: 2px;
+  box-sizing: content-box;
+  
+  
+  
+  }
+  .btn{
+  
+  display: block;
+  height: 18px;
+  padding: 30px 20px 40px 20px;
+ 
+  /* padding: 16px 36px 20px 36px; */
+  border:1px solid #FFF;
+  /* position: absolute;
+  left: 40.88px;
+  top: 19.95px; */
+  /* 
+  border: #fff 1px solid; */
+  text-decoration: none;
+  text-align: center;
+  /* padding-top: 10px; */
+  font-weight: 600;
+  line-height: 100%;
+  color: #e1e0e0;
+  font-size: 15px;
+  
+  }
+}
