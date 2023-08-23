@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* Reset default margin and padding for consistency */
+
+html{
+  height: 100%;
+ 
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background: url("Hero-Landing-Page.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  overflow-y: hidden;
+  background-color: #a45d33
+}
+
+
+
+/* Style the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+/* Style the logo */
+/* .logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+} */
+
+/* Style the navigation links */
+.nav-box {
+ 
+  display: flex;
+  gap: 80px;
+
+}
+
+
+
+.nav-links  {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+nav .nav-link:hover{
+  border: #fff solid 1px;
+  padding: 3px 5px;
+  text-align: center;
+  transition: 500ms;
+  font-size: 20px;
+}
+
+.cart img{
+  margin-left: -30px;
+}
+.text-4{
+ 
+}
+.container{
+
+  box-sizing: border-box;
+  position: relative;
+}
+
+.content{
+  height: 400px;
+  text-align: center;
+  padding-top: 300px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.main-text{
+  font-size: 80px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-container{
+  height: 56px;
+  /* position: absolute; */
+  /* left: 480.2px;
+  top: 168px; */
+  transform: rotate(1.375deg);
+padding-top: 45px;
+margin: 2px;
+
+
+
+}
+.btn{
+width: 159px;
+height: 18px;
+padding: 10px 40px;
+/* padding: 16px 16px 20px 16px; */
+border: 5px solid #ffffff32;
+/* position: absolute;
+left: 40.88px;
+top: 19.95px; */
+/* 
+border: #fff 1px solid; */
+text-decoration: none;
+text-align: center;
+/* padding-top: 10px; */
+font-weight: 600;
+line-height: 100%;
+color: #524e4e;
+font-size: 18px;
+
+}
+
+
+
+
+
+.btn:hover{
+  background-color: #62575764;
+  transition: 800ms;
+ 
+}
+
+
+/* Media query for responsive design */
+@media (max-width: 900px) {
+  body{
+    background: url("/iPad-mini-8.3-2.png");
+   background-size: 150vh;
+  
+  background-repeat: no-repeat;
+  }
+  nav {
+    /* flex-direction: column; */
+  }
+
+  .content{
+    height: 400px;
+    text-align: center;
+    margin-top: -120px;
+    padding-left: 140px;
+    padding-right: 230px;
+  }
+  .main-text{
+    font-size: 60px;
+   
+  }
+
+}
+@media (max-width: 560px) {
+  body{
+    background: url("/iPhone-13-mini-812.png");
+   background-size: 150vh;
+  
+  background-repeat: no-repeat;
+  }
+
+
+  nav {
+  
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+     gap: 112px;
+  }
+
+  .nav-box {
+ 
+    /* display: flex; */
+    gap: 30px;
+  
+  }
+  .content{
+    height: 400px;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 140px;
+    padding-right: 230px;
+  }
+  .main-text{
+    font-size: 60px;
+   
+  }
+
+
+  .btn-container{
+    /* height: 56px; */
+    /* position: absolute; */
+    /* left: 480.2px;
+    top: 168px; */
+    transform: rotate(1.375deg);
+  padding-top: 35px;
+  margin: 2px;
+  box-sizing: content-box;
+  
+  
+  
+  }
+  .btn{
+  
+  display: block;
+  height: 18px;
+  padding: 10px 5px;
+  /* padding: 16px 36px 20px 36px; */
+  border:1px solid #FFF;
+  /* position: absolute;
+  left: 40.88px;
+  top: 19.95px; */
+  /* 
+  border: #fff 1px solid; */
+  text-decoration: none;
+  text-align: center;
+  /* padding-top: 10px; */
+  font-weight: 600;
+  line-height: 100%;
+  color: #524e4e;
+  font-size: 12px;
+  
+  }
+  
+}
