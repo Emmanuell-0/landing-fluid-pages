@@ -258,7 +258,7 @@ font-size: 18px;
   background-repeat: no-repeat;
   background-color: #A6613A;
   box-sizing: content-box;
-  overflow-x: hidden;
+  width: 100%;
   }
 .container{
   width: 100%;
