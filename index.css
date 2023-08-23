@@ -21,7 +21,7 @@ body {
   background-size: cover;
   font-family: 'Lato', sans-serif;
   overflow-y: hidden;
-  background-color: #a45d33
+  background-color: #A6613A
 }
 
 
@@ -148,6 +148,7 @@ font-size: 18px;
    background-size: 150vh;
   
   background-repeat: no-repeat;
+  background-color: #A6613A;
   }
   nav {
     /* flex-direction: column; */
@@ -172,6 +173,7 @@ font-size: 18px;
    background-size: 150vh;
   
   background-repeat: no-repeat;
+  background-color: #A6613A
   }
 
 
