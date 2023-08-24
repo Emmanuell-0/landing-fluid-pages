@@ -313,7 +313,7 @@ font-size: 18px;
 
   body{
     background: url("iphone-11.png");
-   background-size: 110vh;
+   background-size: 150vh;
   background-position:inherit;
   background-repeat: no-repeat;
   background-color: #A6613A;
@@ -321,7 +321,7 @@ font-size: 18px;
  width: 100%;
   }
 .container{
-  width: 50%;
+  width: 100vh;
 }
 .content{
   margin-top: -60px;
